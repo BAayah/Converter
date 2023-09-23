@@ -1,0 +1,34 @@
+body {       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;   
+}
+.container {
+    width: 400px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    box-shadow: 0 0 10px 10px;
+}
+
+/* .bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba((--bs-success-rgb), (--bs-bg-opacity)) !important;
+  } */
+select {
+    border-radius: 7px;
+}
+button {    
+    margin-top: 10px;
+}
+h3 {
+    margin-top: 5px;
+}
+input {
+    border-radius: 7px;
+}
